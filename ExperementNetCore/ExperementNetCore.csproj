@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0-windows7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MyLib">
+      <HintPath>..\MyLib\bin\Debug\netcoreapp3.1\MyLib.dll</HintPath>
+    </Reference>
+    <Reference Include="PersonInf">
+      <HintPath>..\PersonInf\bin\Debug\netcoreapp3.1\PersonInf.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
