@@ -76,6 +76,7 @@ namespace ExperementNetCore
 
         public override void DisplayTo()
         {
+
         }
     }
     class Program
